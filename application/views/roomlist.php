@@ -10,7 +10,7 @@
         for($l=1;$l<=14;$l++) {
       ?>
           <li>
-            <a href="rooms/<?= $l ?>">lantai <?= $l ?></a>
+            <a href="/rooms/<?= $l ?>">lantai <?= $l ?></a>
           </li>
        <?php
         }

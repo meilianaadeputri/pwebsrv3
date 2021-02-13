@@ -10,7 +10,7 @@
           if ($i == 'Q' or $i == 'X') continue;
       ?>
           <li>
-            <a href="members/<?= $i ?>"><?= $i ?></a>
+            <a href="/members/<?= $i ?>"><?= $i ?></a>
           </li>
        <?php
         if ($i == 'Z') break;}
