@@ -9,7 +9,7 @@
           for($b=4;$b<=11;$b++) {
         ?>
             <li>
-              <a href="/guests/<?= $b ?>">bulan <?= $b ?></a>
+              <a href="guests/<?= $b ?>">bulan <?= $b ?></a>
             </li>
          <?php
        }
